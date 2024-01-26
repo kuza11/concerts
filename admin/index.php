@@ -132,7 +132,7 @@ switch ($res) {
                         </div>
                     </td>
                     <td>
-                        <?= $event->datum ?>
+                        <?= date("d.m.Y", strtotime($event->datum))  ?>
                     </td>
                     <td>
                         <?= $event->cas ?>
