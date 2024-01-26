@@ -1,0 +1,81 @@
+td:nth-child(5){
+  text-align: center;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  background-color: wheat;
+  box-shadow: 5px 5px 5px black ;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 1rem 2rem 2rem 2rem;
+  font-size: 1.5rem;
+}
+.login{
+  height: 100vh;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  font-size: 1.5rem;
+  border-radius: inherit;
+}
+label{
+  margin-bottom: 0.3rem;
+}
+form > *:nth-child(4), form > *:nth-child(6), form > *:nth-child(8){
+  margin-top: 1rem; 
+}
+.options{
+  width: 100%;
+}
+
+input[type=checkbox]:hover, input[type=submit]:hover{
+  cursor: pointer;
+}
+
+input[type=submit]{
+  padding: 0.4rem;
+}
+
+button{
+  padding: 0.3rem;
+  border-radius: 10px;
+  font-size: 1rem;
+
+}
+.id{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+  height: 100%;
+}
+button:hover{
+  cursor: pointer;
+}
+#cancel{
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+#cancelDiv{
+  width: 100%;
+  text-align: end;
+}
